@@ -1,0 +1,5 @@
+{
+  "name": "SlideGen AI",
+  "description": "Generate professional PowerPoint presentations instantly from natural language prompts using Gemini AI.",
+  "requestFramePermissions": []
+}
