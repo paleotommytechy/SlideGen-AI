@@ -59,7 +59,7 @@ const App: React.FC = () => {
               SlideGen AI
             </h1>
           </div>
-          {process.env.API_KEY ? (
+          {import.meta.env.VITE_API_KEY ? (
              <span className="text-xs font-medium px-2 py-1 bg-green-100 text-green-700 rounded-full">
                System Ready
              </span>
