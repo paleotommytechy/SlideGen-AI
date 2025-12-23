@@ -33,7 +33,7 @@ const presentationSchema: Schema = {
 };
 
 export const generatePresentationContent = async (config: PresentationConfig): Promise<PresentationData> => {
-  const apiKey = import.meta.env.VITEAPI_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY;
   if (!apiKey) {
     throw new Error("API Key is missing. Please check your environment configuration.");
   }
